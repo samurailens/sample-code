@@ -52,13 +52,20 @@ Dependencies listed in requirements.txt
    pip install -r requirements.txt
 
 4. Create a .env file in the project root and add the following environment variables:
-   CDI_USERNAME=your_username
-   CDI_PASSWORD=your_password
-   CDI_GROUP_NAME=your_group_name
-   CDI_LOCATION_ID=your_location_id
-   CDI_ENDPOINT_ID=your_endpoint_id
-   CDI_ACCOUNT_ID=your_account_id
-   CDI_IP_ADDRESS=your_ip_address
+   
+   `CDI_USERNAME=your_username`
+
+   `CDI_PASSWORD=your_password`
+
+   `CDI_GROUP_NAME=your_group_name`
+
+   `CDI_LOCATION_ID=your_location_id`
+
+   `CDI_ENDPOINT_ID=your_endpoint_id`
+
+   `CDI_ACCOUNT_ID=your_account_id`
+
+   `CDI_IP_ADDRESS=your_ip_address`
 
    Replace your_username, your_password, etc., with your actual NZTA MotoCheck account details.
 
