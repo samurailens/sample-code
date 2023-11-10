@@ -33,4 +33,4 @@ Dependencies listed in requirements.txt
 Open a terminal and navigate to the project directory.
 
 1. Run the python script:
-   python fetch_vehicle_by_platenumber.py YOUR_PLATE_NUMBER
+   python vehicle_info_fetcher.py
