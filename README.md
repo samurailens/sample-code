@@ -64,7 +64,14 @@ Dependencies listed in requirements.txt
 
 # Running the Project
 
-Open a terminal and navigate to the project directory.
+1. Open a terminal and navigate to the project directory.
 
-1. Run the python script:
-   python vehicle_info_fetcher.py YOUR_PLATE_NUMBER
+2. Run the authentication script:
+   python authenticate_cdi_admin.py
+
+   This script authenticates the client and displays the authentication response.
+
+3. Run the script to fetch vehicle details using a plate number:
+   python fetch_vehicle_by_platenumber.py YOUR_PLATE_NUMBER
+
+   Replace YOUR_PLATE_NUMBER with the actual plate number you want to query.
